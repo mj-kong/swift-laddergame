@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		8377CC321F8B4401007F7335 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CC311F8B4401007F7335 /* main.swift */; };
 		E2C0DAAF231F98AC00FA8ADE /* LadderGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0DAAE231F98AC00FA8ADE /* LadderGameTest.swift */; };
+		E2C0DAB4231FB19D00FA8ADE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CC311F8B4401007F7335 /* main.swift */; };
+		E2C0DAB6231FBA7E00FA8ADE /* LadderGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0DAB5231FBA7E00FA8ADE /* LadderGame.swift */; };
+		E2C0DAB8231FBAD200FA8ADE /* LadderPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0DAB7231FBAD200FA8ADE /* LadderPlayer.swift */; };
+		E2C0DABA231FBB5700FA8ADE /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0DAB9231FBB5700FA8ADE /* InputView.swift */; };
+		E2C0DABC231FBF7200FA8ADE /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0DABB231FBF7200FA8ADE /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +34,10 @@
 		E2C0DAAC231F98AB00FA8ADE /* LadderGameTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LadderGameTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C0DAAE231F98AC00FA8ADE /* LadderGameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderGameTest.swift; sourceTree = "<group>"; };
 		E2C0DAB0231F98AC00FA8ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C0DAB5231FBA7E00FA8ADE /* LadderGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderGame.swift; sourceTree = "<group>"; };
+		E2C0DAB7231FBAD200FA8ADE /* LadderPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderPlayer.swift; sourceTree = "<group>"; };
+		E2C0DAB9231FBB5700FA8ADE /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		E2C0DABB231FBF7200FA8ADE /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				8377CC311F8B4401007F7335 /* main.swift */,
+				E2C0DAB9231FBB5700FA8ADE /* InputView.swift */,
+				E2C0DAB5231FBA7E00FA8ADE /* LadderGame.swift */,
+				E2C0DABB231FBF7200FA8ADE /* ResultView.swift */,
+				E2C0DAB7231FBAD200FA8ADE /* LadderPlayer.swift */,
 			);
 			path = LadderGame;
 			sourceTree = "<group>";
@@ -175,6 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8377CC321F8B4401007F7335 /* main.swift in Sources */,
+				E2C0DABA231FBB5700FA8ADE /* InputView.swift in Sources */,
+				E2C0DABC231FBF7200FA8ADE /* ResultView.swift in Sources */,
+				E2C0DAB8231FBAD200FA8ADE /* LadderPlayer.swift in Sources */,
+				E2C0DAB6231FBA7E00FA8ADE /* LadderGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C0DAB4231FB19D00FA8ADE /* main.swift in Sources */,
 				E2C0DAAF231F98AC00FA8ADE /* LadderGameTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
